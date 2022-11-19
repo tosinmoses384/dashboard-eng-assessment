@@ -1,11 +1,5 @@
 import styled from "styled-components";
-import {
-  Music,
-  Sidebar,
-  Logo,
-  LogoLikedSongs,
-  LogoAbsolute,
-} from "../components";
+import { Music, Sidebar, LogoAbsolute } from "../components";
 
 export const Stack = styled.div`
   position: relative;

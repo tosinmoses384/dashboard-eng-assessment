@@ -1,19 +1,15 @@
-import React, { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
-
 const SearchBar = () => {
   return (
     <div>
-    <input 
+      <input
         type="text"
         className=""
         placeholder=""
         value=""
-        onChange={()=>{}}        
-        />
-        
+        onChange={() => {}}
+      />
     </div>
-  )
-}
+  );
+};
 
-export default SearchBar
+export default SearchBar;

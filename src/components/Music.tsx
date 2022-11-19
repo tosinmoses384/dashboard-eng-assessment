@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Card } from "antd";
 
 export const Stack = styled.div`
   display: flex;
@@ -86,7 +85,7 @@ export const Stack = styled.div`
 `;
 
 const Music = () => {
-  const { Meta } = Card;
+ 
   return (
     <Stack>
       <div className="covers">

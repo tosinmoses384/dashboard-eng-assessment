@@ -1,11 +1,7 @@
-import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import styled from "styled-components";
-import logo from "./logo.svg";
 import "./App.css";
-import { Button } from "antd";
 import { Navbar, Feed, SearchFeed } from "./components";
-
 export const DivStyle = styled.div`
   background-color: #000;
 `;

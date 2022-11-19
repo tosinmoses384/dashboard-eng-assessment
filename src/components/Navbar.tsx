@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { logo, logo1, logo2, logo3 } from "../utils/constants";
-
-import { Logo, SearchBar } from "../components";
+import { Logo } from "../components";
 
 export const Stack = styled.div`
   // border: 1px dashed red;
