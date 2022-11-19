@@ -1,11 +1,15 @@
-const Logo = ({
+const LogoLikedSongs = ({
   name,
   height,
   width,
+  top,
+  left,
 }: {
   name: string;
   height?: string;
   width?: string;
+  top?: string;
+  left?: string;
 }) => {
   return (
     <img
@@ -14,9 +18,12 @@ const Logo = ({
       style={{
         height,
         width,
+        position: "absolute",
+        top,
+        left,
       }}
     />
   );
 };
 
-export default Logo;
+export default LogoLikedSongs;

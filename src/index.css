@@ -7,11 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
 html,
 body {
   margin: 0;
@@ -25,12 +20,13 @@ a {
 }
 
 ::-webkit-scrollbar {
-  width: 0px;
-  height: 5px;
+  width: 3px;
+
+  height: 1px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(114, 113, 113);
+  background-color: #fbba12;
   border-radius: 10px;
   height: 200px;
 }
