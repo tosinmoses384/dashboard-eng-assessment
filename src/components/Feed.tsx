@@ -12,9 +12,11 @@ export const Stack = styled.div`
     min-width: 13%;
 
     @media (min-width: 320px) {
-      height: auto;
-      padding-left: 0;
-      padding-right: 0;
+      display: none;
+      // border: 1px dashed red;
+      // height: auto;
+      // padding-left: 0;
+      // padding-right: 0;
     }
 
     @media (min-width: 768px) {
