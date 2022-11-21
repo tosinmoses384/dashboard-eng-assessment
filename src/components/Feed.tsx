@@ -38,7 +38,7 @@ export const Stack = styled.div`
         display: flex;
         justify-content: space-between;
 
-        margin-bottom: 2.5rem;
+        // margin-bottom: 2.5rem;
 
         .welcome_h1 {
           font-style: normal;
@@ -62,15 +62,26 @@ export const Stack = styled.div`
           }
         }
       }
+
+      @media (min-width: 320px) {
+       height: 120vh;
+      }
+      @media (min-width: 768px) {
+        height: 57vh;
+      }
+
     }
   }
 
   @media (min-width: 320px) {
+    // border: 1px dahsed red!important;
     display: flex;
     flex-direction: flex-column;
 
     min-width: 22rem;
     background: #000;
+
+    // height: 58rem;
   }
 
   @media (min-width: 768px) {
@@ -104,7 +115,10 @@ const Feed = () => {
             display: "flex",
             justifyContent: "space-around",
             alignItems: "center",
-            top: "1053px",
+            // top: "1053px",
+            // top: "1276px",
+            // top: "1544px",
+            top: "1297px",
             bottom: "0px",
             background: "black",
             width: "100%",
