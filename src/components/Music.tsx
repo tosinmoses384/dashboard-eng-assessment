@@ -14,7 +14,7 @@ export const Stack = styled.div`
   grid-template-columns: repeat(6, 1fr);
   gap: 10px;
   margin-top: 40px;
-  // margin-bottom: 40px;
+  margin-bottom: 40px;
 
   .cover-1 {
     background: url(./svg/vibes1.svg) no-repeat center center / cover;
