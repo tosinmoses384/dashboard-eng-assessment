@@ -9,4 +9,5 @@ export { default as SearchIcon } from "./SearchIcon";
 export { default as Sidebar } from "./Sidebar";
 export { default as LogoLikedSongs } from "./LogoLikedSongs";
 export { default as LogoAbsolute } from "./LogoAbsolute";
+export { default as LogoFlex } from "./LogoFlex";
 export { default as Music } from "./Music";

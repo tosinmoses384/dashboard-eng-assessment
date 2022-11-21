@@ -12,10 +12,9 @@ export const Stack = styled.div`
     .covers {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-//   gap: 20px;
   gap: 10px;
   margin-top: 40px;
-
+  // margin-bottom: 40px;
 
   .cover-1 {
     background: url(./svg/vibes1.svg) no-repeat center center / cover;
@@ -50,11 +49,6 @@ export const Stack = styled.div`
         left: 7px
         text-align: left;
 
-
-
-
-
-
             .sub-title {
                 font-style: normal;
                 font-weight: 700;
@@ -73,10 +67,6 @@ export const Stack = styled.div`
                 color: rgba(255, 255, 255, 0.9);
             }
 
-
-
-
-
       }
   }
   
@@ -85,7 +75,6 @@ export const Stack = styled.div`
 `;
 
 const Music = () => {
- 
   return (
     <Stack>
       <div className="covers">

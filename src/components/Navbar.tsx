@@ -4,7 +4,6 @@ import { logo, logo1, logo2, logo3 } from "../utils/constants";
 import { Logo } from "../components";
 
 export const Stack = styled.div`
-  // border: 1px dashed red;
   display: flex;
   align-items: flex-center;
   padding: 1rem;
@@ -14,7 +13,7 @@ export const Stack = styled.div`
       display: none;
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
       display: flex;
       justify-content: space-between;
       width: 20%;
@@ -23,14 +22,12 @@ export const Stack = styled.div`
 
   .tex {
     color: #fff;
-    // width: 20%;
-    // display: flex;
-    // flex-direction: space-between;
   }
 
   @media (min-width: 320px) {
     display: flex;
     position: sticky;
+    z-index: 1000;
     background: #000;
     top: 0;
     min-width: 22rem;

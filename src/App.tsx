@@ -10,7 +10,6 @@ const App = () => (
   <BrowserRouter>
     <DivStyle>
       <Navbar />
-
       <Routes>
         <Route path="/" element={<Feed />} />
         <Route path="/search/:searchTerm" element={<SearchFeed />} />
